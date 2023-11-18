@@ -1,0 +1,44 @@
+{
+  "name": "@3scarecrow/use-permission",
+  "version": "1.0.0",
+  "description": "A tool for managing permission data in the form of directives, components, and methods.",
+  "author": "3scarecrow",
+  "type": "module",
+  "types": "dist/use-permission.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "main": "dist/use-permission.umd.min.js",
+  "repository": "https://github.com/3scarecrow/use-permission.git",
+  "homepage": "https://github.com/3scarecrow/use-permission#readme",
+  "bugs": {
+    "url": "https://github.com/3scarecrow/use-permission/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "permission",
+    "directive",
+    "component"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-buble": "1.0.3",
+    "@rollup/plugin-commonjs": "25.0.7",
+    "@rollup/plugin-node-resolve": "15.2.3",
+    "@types/vue": "2.0.0",
+    "rollup": "4.5.0",
+    "rollup-plugin-dts": "6.1.0",
+    "rollup-plugin-terser": "7.0.2",
+    "rollup-plugin-typescript2": "0.36.0",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "vue": "2.6.14"
+  }
+}

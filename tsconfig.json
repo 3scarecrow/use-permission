@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "lib": ["esnext", "dom"],
+    "types": ["node", "vue"],
+    // "declaration": true,
+    // "declarationDir": "dist",
+    // "outDir": "dist"
+  },
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
