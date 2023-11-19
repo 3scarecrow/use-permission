@@ -6,11 +6,11 @@
 ## 安装
 
 ```sh
-yarn add @3scarecrow/use-permission --dev
+yarn add @3scarecrow/use-permission
 
 # or
 
-npm install @3scarecrow/use-permission --save-dev
+npm install @3scarecrow/use-permission
 ```
 
 ## 用法
