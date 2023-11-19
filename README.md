@@ -1,7 +1,7 @@
 # usePermission
-一个以指令、组件和方法等方式来管理权限数据的工具。
+一个以指令、组件和方法等方式来管理权限数据的工具
 
-该工具适用于一些需要**权限控制**的地方，例如操作权限，访问页面权限等等。
+该工具适用于一些需要**权限控制**的地方，例如操作权限，访问页面权限等等
 
 ## 安装
 
@@ -59,6 +59,8 @@ router.beforeEach(async (to, from, next) => {
   // 还没获取权限，则调接口获取权限
   if (!hasPermission('obtained')) {
     const permissionList = await getPermission()
+    // 设置已获取权限
+    setPermission('obtained', true)
     // 假如 permissionList = ['sys.export', 'sys.delete']
     permissionList.forEach(key => {
       setPermission(key, true)
